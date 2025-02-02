@@ -4,6 +4,9 @@
 
 This project utilizes two Arduino boards with an ultrasonic sensor to measure the distance to obstacles. One Arduino sends the distance data via CAN communication, while the other Arduino receives this CAN data and outputs it to the serial monitor. The data is then transmitted to a QT program that visualizes the distance in real-time. If the distance is less than 10cm, the parking line changes color to red.
 
+![QT Program Screenshot](images/Screenshot from 2025-01-23 15-57-33.png)
+![QT Program Screenshot](images/Screenshot from 2025-01-23 15-57-25.png)
+
 ## 1. Arduino Code
 
 Sender Arduino: Measures the distance to obstacles using an ultrasonic sensor and sends the data via CAN communication.
