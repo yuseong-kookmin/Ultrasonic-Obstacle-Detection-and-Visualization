@@ -13,3 +13,6 @@ Receiver Arduino: Receives CAN data and outputs the distance to the serial monit
 ## 2. QT Visualization Program
 
 Reads data from the serial port and displays the distance on the screen. If the distance is less than 10cm, the parking line turns red.
+
+important : Ensure to set the correct PortName and SerialPort BaudRate in mainwindow.cpp for proper serial communication.
+
